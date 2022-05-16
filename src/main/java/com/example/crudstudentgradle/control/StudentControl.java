@@ -24,7 +24,7 @@ public class StudentControl {
 	// Create Student
 	@ApiOperation(value = "2: Tạo thông tin một học sinh")
 	@PostMapping("/createStudent")
-	public Student createStu(Student student){
+	public Student createStu(@RequestBody Student student){
 		return studentService.createStudent(student);
 	}
 	// Update Student
