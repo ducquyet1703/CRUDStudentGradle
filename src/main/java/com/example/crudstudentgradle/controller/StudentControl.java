@@ -1,4 +1,4 @@
-package com.example.crudstudentgradle.control;
+package com.example.crudstudentgradle.controller;
 
 import com.example.crudstudentgradle.entity.Student;
 import com.example.crudstudentgradle.service.StudentService;
@@ -7,7 +7,6 @@ import org.springframework.data.domain.Sort;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 public class StudentControl {
